@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; URL=https://github.com/joselitosn">
-    <title>Hello World!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; URL=https://github.com/joselitosn">
+  <title>Hello World!</title>
+  <style>
+    .day {
+      background: #eee;
+      color: black;
+    }
+    .night {
+      background: #333;
+      color: white;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .day.dark-scheme {
+        background: #333;
+        color: white;
+      }
+      .night.dark-scheme {
+        background: black;
+        color: #ddd;
+      }
+    }
+
+    @media (prefers-color-scheme: light) {
+      .day.light-scheme {
+        background: white;
+        color: #555;
+      }
+      .night.light-scheme {
+        background: #eee;
+        color: black;
+      }
+    }
+  </style>
 </head>
-<body style="background-color: #0d1117;">
-    
+<body>
+  <!-- no content -->
 </body>
 </html>
